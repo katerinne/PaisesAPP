@@ -1,3 +1,29 @@
 .small-flag{
     width: 50px;
 }
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 30px;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.centrar{
+  margin:auto;
+  display:block;
+}
+

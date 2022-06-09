@@ -12,8 +12,9 @@
                     'btn-outline-primary': regionActiva !== region
                 }" -->
 
-        <button *ngFor="let region of regiones"
-                [class]="getClassCSS(region)"                                
+        <button class="btn btn-outline-dark"
+                *ngFor="let region of regiones"
+
                 (click)="activarRegion(region)">
             {{ region | titlecase }}
         </button>
